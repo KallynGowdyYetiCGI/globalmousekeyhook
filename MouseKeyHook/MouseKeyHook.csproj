@@ -180,9 +180,6 @@
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
-    <Reference Include="System.Windows.Forms">
-      <Name>System.Windows.Forms</Name>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementation\Chord.cs" />
@@ -191,6 +188,12 @@
     <Compile Include="Implementation\ButtonSet.cs" />
     <Compile Include="KeyCombinationExtensions.cs" />
     <Compile Include="Implementation\KeysExtensions.cs" />
+    <Compile Include="KeyEventArgs.cs" />
+    <Compile Include="KeyPressEventArgs.cs" />
+    <Compile Include="Keys.cs" />
+    <Compile Include="MouseButtons.cs" />
+    <Compile Include="MouseEventArgs.cs" />
+    <Compile Include="Handlers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

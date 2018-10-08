@@ -3,7 +3,6 @@
 // See license.txt or https://mit-license.org/
 
 using System;
-using System.Windows.Forms;
 
 namespace Gma.System.MouseKeyHook.Implementation
 {
